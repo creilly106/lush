@@ -133,6 +133,55 @@ body, html {
     color: white;
 }
 
+/* General Styling for Quiz Content */
+.quiz-main {
+    text-align: center;
+}
+
+/* Styling for Quiz Containers */
+#dog-quiz-container, #countries-quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Constrain Image Size and Add Border for Quiz Images */
+.quiz-image {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+/* Styling feedback and input */
+#answer-feedback {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+/* Styling for input and button */
+.quiz-question input[type="text"], .quiz-question button {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    width: auto;
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.quiz-question button {
+    vertical-align: middle;
+}
+
+/* Styling feedback and input */
+#answer-feedback {
+    font-weight: bold; /* Makes feedback text bold */
+    margin-top: 1em; /* Adds space above the feedback text */
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .card-container {
@@ -144,3 +193,4 @@ body, html {
         margin: 15px 0;
     }
 }
+
